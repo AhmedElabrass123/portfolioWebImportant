@@ -7,7 +7,7 @@ function pageTransitions(){
     //button click active class
     for(let i=0; i<secBtn.length;i++){
         secBtn[i].addEventListener("click", (e) =>{
-            document.querySelector(".controlls div.btn-active").classList.remove("btn-active")
+            document.querySelector(".controlls i.btn-active").classList.remove("btn-active")
              secBtn[i].classList.add("btn-active")   
         })
     }

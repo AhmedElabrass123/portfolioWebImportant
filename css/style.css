@@ -556,8 +556,12 @@ textarea {
   color: var(--color-primary);
 }
 @media (max-width:768px) {
+  .contact .container{
+    overflow-x: hidden;
+  }
   .contact .contact-content .loc {
     flex-wrap: wrap;
+    margin-bottom: 30px;
    }
    .contact .contact-icons a {
   margin-left: 0px; 
@@ -570,6 +574,9 @@ textarea {
 }
 .contact form .name-email {
   flex-wrap: wrap;
+}
+.contact-left p{
+  margin-bottom: 25px;
 }
 }
 /* ===========================end sec contact=================== */
